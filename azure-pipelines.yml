@@ -50,5 +50,5 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
   inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
     artifactName: 'drop'
